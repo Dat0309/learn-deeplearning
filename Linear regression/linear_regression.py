@@ -71,7 +71,7 @@ for i in range(1, numOfIteration):
     w[1] -= learing_rate*np.sum(np.multiply(r,x[:,1].reshape(-1,1)))
     print(cost[i])
 predict = np.dot(x, w)
-print('predict\n',predict)
+#print('predict\n',predict)
 plt.plot((x[0][1], x[N-1][1]), (predict[0], predict[N-1]), 'r')
 plt.show()
 
