@@ -42,6 +42,7 @@ for i in range(1, num):
 t = 0.5
 plt.plot((4, 10), (-(w[0] + 4*w[1] + np.log(1/t-1)) / w[2], -(w[0] + 10*w[1] + np.log(1/t-1)) / w[2]), 'g')
 plt.show()
+plt.savefig('logistic_regression.png')
 
 x1 = 4
 x2 = 1
