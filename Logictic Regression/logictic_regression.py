@@ -41,8 +41,9 @@ for i in range(1, num):
 # T là tỉ lệ cho vay của công ti
 t = 0.5
 plt.plot((4, 10), (-(w[0] + 4*w[1] + np.log(1/t-1)) / w[2], -(w[0] + 10*w[1] + np.log(1/t-1)) / w[2]), 'g')
-plt.show()
 plt.savefig('logistic_regression.png')
+plt.show()
+
 
 x1 = 4
 x2 = 1
