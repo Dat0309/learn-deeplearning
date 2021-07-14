@@ -74,6 +74,7 @@ predict = np.dot(x, w)
 #print('predict\n',predict)
 plt.plot((x[0][1], x[N-1][1]), (predict[0], predict[N-1]), 'r')
 plt.show()
+plt.savefig('linear_regression.png')
 
 x1 = 50
 y1 = w[0] + w[1]*x1
